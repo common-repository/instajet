@@ -1,0 +1,117 @@
+@font-face {
+	font-family: 'instajet';
+	src:url('../fonts/instajet.eot?-4fpouq');
+	src:url('../fonts/instajet.eot?#iefix-4fpouq') format('embedded-opentype'),
+		url('../fonts/instajet.woff?-4fpouq') format('woff'),
+		url('../fonts/instajet.ttf?-4fpouq') format('truetype'),
+		url('../fonts/instajet.svg?-4fpouq#instajet') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+[class^="icon-"]:before, [class*=" icon-"]:before, [class^="instajet-"] .hndle span:before, [class*=" instajet-"] .hndle span:before {
+	font-family: 'instajet';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	padding-right: 11px;
+	vertical-align: -2px;
+}
+
+.postbox select {
+	display: inline-block;
+	border-radius: 3px;
+	display: inline-block;
+	height: 40px;
+	padding: 0 10px;
+	vertical-align: 4px;
+}
+
+.postbox h1 {
+	display: inline-block;
+	padding: 16px 20px;
+}
+.icon-journeyposttype:before {
+	content: "\e601";
+}
+.icon-aircraftposttype:before {
+	content: "\e602";
+}
+.icon-wpsidebar:before {
+	content: "\e600";
+}
+.icon-home:before {
+	content: "\e603";
+}
+.icon-paint-format:before {
+	content: "\e604";
+}
+.icon-stack:before {
+	content: "\e605";
+}
+.icon-ticket:before {
+	content: "\e606";
+}
+.icon-coin:before {
+	content: "\e607";
+}
+.icon-search:before {
+	content: "\e608";
+}
+.icon-settings:before {
+	content: "\e609";
+}
+.icon-stats:before {
+	content: "\e60a";
+}
+.icon-bars:before, [class^="instajet-"] .hndle span:before, [class*=" instajet-"] .hndle span:before {
+	content: "\e60b";
+}
+.icon-briefcase:before {
+	content: "\e60c";
+}
+
+
+#adminmenu #menu-posts-aircraft .menu-icon-post div.wp-menu-image:before {
+	font-family: 'instajet'!important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	content: "\e602";
+}
+
+
+#adminmenu #menu-posts-flight-requests .menu-icon-post div.wp-menu-image:before {
+	font-family: 'instajet'!important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	content: "\e601";
+}

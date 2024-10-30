@@ -1,0 +1,220 @@
+.ij-wrap {
+	clear:both;
+}
+
+.ij-wrap * {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+ 
+.ij-wrap button {margin-left:0;}
+
+.ui-widget {background:#f8f8f8;}
+.ui-menu .ui-menu-item {padding:0.2em;}
+ 
+.ig-form label {display:inline-block;min-width:100px;padding-right:10px;}
+.ig-form input {padding:0.3em 0.5em;border-radius:3px;border:1px solid #ddd;font-size:13px;}
+
+.aircraft_meta .aircraft-image {float:left;width:300px;height:180px;background:#eee none no-repeat center;background-size:cover;margin-right:2em;}
+.aircraft_meta {overflow:hidden;}
+.aircraft_meta h3 {clear:none;}
+.aircraft_meta p {margin:0 0 1em;}
+
+.aircraft_selection {overflow:hidden;max-height:0;opacity:0;
+transition: all .3s;
+-moz-transition: all .3s;
+-webkit-transition: all .3s;
+-o-transition: all .3s;
+}
+.aircraft_selection.open {max-height:999px;padding-top:10px;opacity:1;}
+
+.aircraft_meta .fi-clock {color:#999;margin-left:1em;}
+
+.aircraft_selection ul {margin:0;padding:0;list-style-type:none;}
+.aircraft_selection ul li {margin:0;padding:0;list-style-type:none;}
+.aircraft_selection dl {margin:0;padding:0;font-size:0.9em;}
+.aircraft_selection dl dd, .aircraft_selection dl dt {display:inline-block;margin-bottom:0;margin-top:0;vertical-align:middle;}
+.aircraft_selection input {vertical-align:middle;margin-top:-1px;margin-left:0.2em;}
+.aircraft_selection h5 {margin-bottom:5px;}
+
+.pricewrap {margin-bottom:2em;}
+.pricewrap + .pricewrap {padding-top:2em;border-top:1px solid #eee;}
+
+.ij-modal-overlay, .ij-modal {opacity:0;
+transition: all .2s, opacity 0.3s;
+-moz-transition: all .2s, opacity 0.3s;
+-webkit-transition: all .2s, opacity 0.3s;
+-o-transition: all .2s, opacity 0.3s;
+}
+.ij-modal-overlay {position:fixed;top:0;left:0;right:0;bottom:0;background:#000;background:rgba(0,0,0,0.4);z-index:50;cursor:pointer;}
+.ij-modal {position:fixed;top:50%;left:50%;z-index:51;width:640px;margin:-100px -320px;}
+.ij-modal-content {padding:1.5em;border-radius:5px;background:#fff;box-shadow:0 0 2em rgba(0,0,0,0.2);overflow:hidden;}
+
+.ij-modal .ij-jets-list h5 {font-style:italic;color:#999;font-size:0.9em;}
+.ij-modal .ij-jets-list {text-align:left;}
+
+.ij-modal input[type=text], .ij-modal input[type=email] {display:block;margin:0.5em 0 0.8em;width:100%;}
+.ij-modal label {display:block;font-weight:700;}
+.ij-modal .ig-form {text-align:left;}
+
+.ij-modal-overlay.active, .ij-modal.active {opacity:1;}
+
+.ij-jets-list, .ij-booking-form {float:left;min-height:100px;margin-top:1em;}
+.ij-jets-list {width:25%;}
+.ij-booking-form {width:70%;padding-left:5%;margin-left:5%;border-left:1px solid #ddd;}
+
+.ig-form.disabled input, .ig-form.disabled button, .ig-form.disabled label {opacity:0.5;}
+.ig-form input.error {border:1px solid #F33;}
+
+#ij-flight-status h3 {margin:1em 0 0.6em;}
+
+.ij-current-status {margin:0.5em 0 1em;}
+.ij-current-status span {font-size:0.8em;color:#999;}
+.ij-current-status span:first-child {display:inline-block;padding:0.2em 0.8em;border:1px solid #ddd;border-radius:3px;background:#eee;font-weight:bold;margin-right:1em;color:#777;}
+.ij-journey-legs {margin:1em 0 2em;font-size:0.9em;}
+.ij-journey-leg + .ij-journey-leg {margin-top:0.5em;padding-top:0.5em;/*border-top:1px solid #eee;*/}
+.ij-outbound-date {color:#999;margin-right:1em;font-size:0.9em;}
+.ij-origin, .ij-destination {font-weight:bold;}
+
+#ij-requested-jets li {font-size:0.9em;}
+#ij-requested-jets li + li {margin-top:0.5em;}
+
+/* Mike's additions */
+
+.ij-wrap .price-guide h4 {font-weight:bold;margin:0.5em 0 1em;}
+
+.ij-wrap .price-guide .details dd + dt, .ij-wrap .price-guide .details dd + dd {margin-left:0.5em;}
+
+.ij-wrap {
+    clear: both;
+    padding: 1.2em 1.5em;
+    margin-bottom: 2em;
+    border-radius: 0.5em;
+    color: #8899a6;
+}
+.ij-wrap:first-of-type {    
+    background:#F0F1F3;
+    color: #263038;
+    border: none;
+}
+
+.ij-wrap h2, .ij-modal h2 {
+    color: #404950;
+    font-size: 19px;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #f2f2f2;
+    padding-bottom: 10px;
+}
+
+.ij-jets-list div {font-size:0.9em;margin-top:1em;}
+
+.ij-wrap button, .ij-modal button {
+    margin-left: 0;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 1rem 3rem;
+	border-radius:5px;
+	background:#ddd;
+	border:none;
+	cursor:pointer;
+}
+.ij-wrap button:hover,.ij-wrap button:focus,.ij-wrap button:active {
+    box-shadow: none;
+    background:#aaa;
+}
+.ij-wrap label {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 12px;
+	min-width:10em;
+}
+
+.ij-form-row {margin-bottom:1em;}
+
+
+.pricerevealed {
+    /* color: #444; */
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.ij-aircraft-explore {
+    display: inline-block;
+    background: #EBF2F7;
+    padding: 0.35rem 0.6rem;
+    border:none;
+    border-radius: 6px;
+    color: #8899a6;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.ij-aircraft-explore:hover {
+        color: #606E79;
+}
+.aircraft_meta h3 {
+    clear: none;
+    font-size: 24px;
+    margin: 0 0 2rem;
+}
+.pricerevealed {
+    /* color: #444; */
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.aircraft_selection {
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    transition: all .3s;
+    -moz-transition: all .3s;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    background: #F1F3F5;
+    border-radius: 8px;
+	padding:0 10px;
+}
+.aircraft_selection.open {margin-top: 20px;padding:10px;}
+.aircraft_selection ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background: #fff;
+    border-radius: 4px;
+}
+.aircraft_selection ul li {
+    margin: 0;
+    padding: 12px!important;
+    list-style-type: none;
+    border-bottom: 1px solid #F1F1F1;
+}
+.entry-content .ig-form input {
+    padding: 0.7em 1em;
+    border-radius: 3px;
+    border: 1px solid rgba(221, 221, 221, 0.68);
+    width:100%;
+    font-size: 13px;
+    background: rgba(255, 255, 255, 0.61);
+    font-weight: bold;
+}
+
+@media screen and (min-width:1024px){
+
+    .ig-form form {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        justify-content: space-between;        
+    }
+
+    .ig-form h2 {
+        flex: 1 1 100%;
+    }
+
+    .ij-form-row {
+        margin-bottom: 1em;
+        flex: 0 1 48%;
+    }
+
+}

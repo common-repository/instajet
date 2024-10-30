@@ -1,0 +1,15 @@
+.ui-widget {background:#f8f8f8;}
+
+.ij-wrap {
+	clear:both;
+}
+
+.ij-wrap * {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+ 
+.ig-form label {display:inline-block;min-width:100px;padding-right:10px;}
+.ig-form input {min-width:300px;}
+

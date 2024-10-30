@@ -1,0 +1,87 @@
+/* Dark theme */
+
+	#ij-wrap h1,#ij-wrap h2,#ij-wrap h3,#ij-wrap h4,#ij-wrap h5,#ij-wrap h6,#ij-wrap p,#ij-wrap a {
+  		color: #8b9293;
+	}
+
+	#ij-wrap h2 {
+		color:#888;
+		border-bottom: 1px solid #ddd;
+	}
+	
+	#ij-wrap h3 {
+		color: #2F3131;
+	}
+	
+	#ij-wrap .ij-edit-book {
+		background:#333;
+	}
+	
+	#ij-wrap h5 {
+		border-bottom: 1px solid #444;
+	}
+	
+	#ij-wrap a.ij-book-jet {
+		background-color: #4dc7ec;	
+		color:#fff;	
+	}
+	
+	#ij-wrap a.ij-edit-jet {
+		background-color: #444;
+		color:#fff;	
+	}
+
+	.field-wrap {
+		background:#A8A8A8;
+	}
+	
+	.ij-edit input {
+		border: 1px solid #aaa;
+		background:#fff;
+	}
+	
+	.ij-edit input.dates {
+		background-color: #fff;
+	}
+	
+	.ij-edit input[type="number"] {
+		background-color: #fff;
+	}
+	
+	.ij-edit button {
+		color:#f8f8f8;
+		background:#666;
+		border: 1px solid #999;
+	}
+
+	.ij-edit button.active {
+		background:#777;
+		border-bottom:4px solid #A8A8A8;
+	}
+
+
+
+/* search form */
+.ig-form form {
+	background:#333;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;	
+}
+
+.ig-form form input {
+	border:1px solid #444;
+
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;		
+}
+
+.ig-form form input:focus {
+	border:1px solid #333;
+}
+
+.ig-form form button {
+	background: #4dc7ec;
+	color: #fff;
+}	

@@ -1,0 +1,81 @@
+/* Light theme */
+
+	#ij-wrap h1,#ij-wrap h2,#ij-wrap h3,#ij-wrap h4,#ij-wrap h5,#ij-wrap h6,#ij-wrap p,#ij-wrap a {
+  		color: #8b9293;
+	}
+
+	#ij-wrap h2 {
+		color:#888;
+		border-bottom: 1px solid #ddd;
+	}
+	
+	#ij-wrap h3 {
+		color: #2F3131;
+	}
+	
+	#ij-wrap .ij-edit-book {
+		background:#F5F5F5;
+	}
+	
+	#ij-wrap .ij-edit-book h5 {
+		border-bottom: 1px solid #ddd;
+	}
+	
+	#ij-wrap a.ij-book-jet {
+		background-color: #4dc7ec;	
+		color:#fff;	
+	}
+	
+	#ij-wrap a.ij-edit-jet {
+		background-color: #aaa;
+		color:#fff;
+	}
+
+	.field-wrap {
+		background:#ddd;
+	}
+	
+	.ij-edit input {
+		border: 1px solid #ccc;
+		background:#fff;
+	}
+	
+	.ij-edit input.dates {
+		background-color: #fff;
+	}
+	
+	.ij-edit input[type="number"] {
+		background-color: #fff;
+	}
+	
+	.ij-edit button {
+		color:#666;
+		background:#f8f8f8;
+		border: 1px solid #ddd;
+	}
+
+	.ij-edit button.active {
+		background:#eee;
+		border-bottom:4px solid #eee;
+	}
+
+
+
+/* search form */
+.ig-form form {
+	background:#fafafa;
+}
+
+.ig-form form input {
+	border:1px solid #ddd;
+}
+
+.ig-form form input:focus {
+	border:1px solid #555;
+}
+
+.ig-form form button {
+	background: #4dc7ec;
+	color: #fff;
+}
+	
